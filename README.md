@@ -18,18 +18,22 @@ https://github.com/user-attachments/assets/97b7f5ef-9096-4a63-995c-041511880426
 
 ## 구현기능 요약
 - [블루투스 연결을 통해 외부 기기와의 연결](#bluetooth-연결)
-- Event를 통해 구현한 플레이어,몬스터 이동 동작
 - [Event를 통해 구현한 플레이어,몬스터 이동 동작](#event를-통해-구현한-플레이어-몬스터-이동-동작)
 
 - WheelyXController를 이용한 외부 신호 -> 플레이어 동작 연결
 - Cinemachine을 통한 시작 시 카메라 연출 구현
 - 몬스터 동작, 행동패턴 구현
 - 보스몬스터 패턴 구현
-- 
 
 
 ## bluetooth 연결
-- 사용에셋 : https://assetstore.unity.com/packages/tools/network/bluetooth-le-for-ios-tvos-and-android-26661?locale=ko-KR&srsltid=AfmBOoqmvJw_I5McSxj5iPVLKb7B2ieTsmJZ5pePY90ItfN9AJt-AbQC
-## event를 통해 구현한 플레이어 몬스터 이동 동작
+- 사용 에셋
+[![사용 에셋](https://github.com/user-attachments/assets/6f75fe5a-ef60-421b-92dc-7c2fe8a2af73)](https://assetstore.unity.com/packages/tools/network/bluetooth-le-for-ios-tvos-and-android-26661?locale=ko-KR&srsltid=AfmBOoqmvJw_I5McSxj5iPVLKb7B2ieTsmJZ5pePY90ItfN9AJt-AbQC "Bluetooth LE for iOS, tvOS and Android")
+- 블루투스 UUID값을 통해 주변 기기 탐색 및 비교
+- 발견된 아이템을 정보화 함께 버튼으로 생성
+- 클릭 시 연결 시도 (ConnectCoroutine), 성공 시 구독까지 진행
+- Ble_WheelyHubData 클래스를 통해 데이터 수신
 
+## event를 통해 구현한 플레이어 몬스터 이동 동작
+- BaseController의 Action OnMoveEvent에 필요한 메서드를 구독하여 동작
 
