@@ -16,11 +16,15 @@ https://github.com/user-attachments/assets/97b7f5ef-9096-4a63-995c-041511880426
 
 [![시연 영상](https://github.com/user-attachments/assets/d624fca7-9cbd-49b5-ba0e-636de7457b8c)](https://vimeo.com/1035473770 "클릭하여 재생")
 
-## 구현기능
+## 구현기능 요약
 - Event를 통해 구현한 플레이어,몬스터 이동 동작
+- [Event를 통해 구현한 플레이어,몬스터 이동 동작](Bluetooth-연결)
 - 블루투스 연결을 통해 외부 기기와의 연결
 - 사용에셋 : https://assetstore.unity.com/packages/tools/network/bluetooth-le-for-ios-tvos-and-android-26661?locale=ko-KR&srsltid=AfmBOoqmvJw_I5McSxj5iPVLKb7B2ieTsmJZ5pePY90ItfN9AJt-AbQC
 - WheelyXController를 이용한 외부 신호 -> 플레이어 동작 연결
 - Cinemachine을 통한 시작 시 카메라 연출 구현
 - 몬스터 동작, 행동패턴 구현
 - 보스몬스터 패턴 구현
+
+## Bluetooth 연결 
+
